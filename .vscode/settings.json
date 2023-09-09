@@ -12,6 +12,8 @@
     "mythreads.h": "c",
     "stdio.h": "c",
     "string_view": "c",
-    "algorithm": "c"
+    "algorithm": "c",
+    "semaphore.h": "c",
+    "*.tcc": "c"
   }
 }
