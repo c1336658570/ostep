@@ -22,3 +22,12 @@ int Pthread_mutex_unlock(pthread_mutex_t *mutex) {
   int rc = pthread_mutex_unlock(mutex);
   assert(rc == 0);
 }
+
+int Pthread_cond_wait(pthread_cond_t *c, pthread_mutex_t *m) {
+  int rc = pthread_cond_wait(c, m);
+  assert(rc == 0);
+}
+int Pthread_cond_signal(pthread_cond_t *c) {
+  int rc = pthread_cond_signal(c);
+  assert(rc == 0);
+}
